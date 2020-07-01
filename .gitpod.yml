@@ -2,5 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+  - init: 'echo "Adding some python packages"'
+    command: |
+      - pip install python-dateutil
+      - pip install pandas
+      - pip install lxml
