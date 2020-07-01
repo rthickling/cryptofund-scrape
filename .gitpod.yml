@@ -4,6 +4,6 @@ image:
 tasks:
   - init: 'echo "Adding some python packages"'
     command: |
-      - pip install python-dateutil
-      - pip install pandas
-      - pip install lxml
+      pip install python-dateutil
+      pip install pandas
+      pip install lxml
