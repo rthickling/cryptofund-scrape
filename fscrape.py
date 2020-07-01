@@ -11,4 +11,4 @@ for row in rows:
     row = copy.copy(row)
     data.append(row.xpath('//td/text()'))
 df = pd.DataFrame(data, columns=['Fund Name', 'City', 'Country', 'Launch Year', 'Type'])
-df
+df[df['City']=='Paris']
